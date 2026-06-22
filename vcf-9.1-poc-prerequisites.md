@@ -205,8 +205,8 @@ VCF 9.1 centralises licensing in a dedicated **VCF License Server** appliance (a
 
 - New instances start in **evaluation mode**; apply licenses afterwards.
 - **Register** the VCF Operations instance and the License Server with the **VCF Business Services console** (`vcf.broadcom.com`) to activate connected licensing.
-- In **connected mode**, license files auto-download **every 24 hours** — the old **180-day manual acknowledgment is gone**.
 - Supports multiple primary licenses and multiple Site IDs per vCenter; programmatic license APIs are available (including for disconnected/air-gapped sites).
+- In **connected mode**, VCF 9.1 automates the previous manual 180-day licence refresh workflow: license usage data is sent to Broadcom every 24 hours, and updated license files are downloaded and applied automatically. In **disconnected mode**, the customer must still manually exchange usage and license files within the 180-day reporting cycle.
 
 | Licensing detail | Value |
 |---|---|
